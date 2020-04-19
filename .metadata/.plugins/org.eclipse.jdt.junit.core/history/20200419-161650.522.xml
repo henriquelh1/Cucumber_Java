@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner" project="Webstore" tests="12" started="12" failures="0" errors="2" ignored="0">
+  <testsuite name="Runner.MainRunner" time="25.799">
+    <testsuite name="Feature: Login into account" time="6.435">
+      <testsuite name="Scenario: Log into account with correct credentials" time="6.435">
+        <testcase name="Given user navigates on website" classname="Scenario: Log into account with correct credentials" time="1.439"/>
+        <testcase name="And User clicks on the login button on homepage" classname="Scenario: Log into account with correct credentials" time="3.256"/>
+        <testcase name="And User enters a valid username" classname="Scenario: Log into account with correct credentials" time="0.129"/>
+        <testcase name="And User enters a valid password" classname="Scenario: Log into account with correct credentials" time="1.531"/>
+        <testcase name="When user clicks on the login button" classname="Scenario: Log into account with correct credentials" time="0.077"/>
+        <testcase name="Then User should be taken to the successful login page" classname="Scenario: Log into account with correct credentials" time="0.003"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login into account" time="5.719">
+      <testsuite name="Scenario: Log into account with correct credentials" time="5.719" incomplete="true">
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".alert\ alert\-danger"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ade5d5f7500fe6098a14d61440340c9b
+*** Element info: {Using=class name, value=alert alert-danger}&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)&#13;
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;
+	at CucumberFramework.Steps.LoginSteps.user_should_be_taken_to_the_successful_login_page(LoginSteps.java:96)&#13;
+	at ✽.Then User should be taken to the successful login page2(Login2.feature:10)&#13;
+&#13;
+</error>
+        <testcase name="Given user navigates on website2" classname="Scenario: Log into account with correct credentials" time="1.136"/>
+        <testcase name="And User clicks on the login button on homepage2" classname="Scenario: Log into account with correct credentials" time="3.239"/>
+        <testcase name="And User enters a valid username2" classname="Scenario: Log into account with correct credentials" time="0.151"/>
+        <testcase name="And User enters a valid password2" classname="Scenario: Log into account with correct credentials" time="1.126"/>
+        <testcase name="When user clicks on the login button2" classname="Scenario: Log into account with correct credentials" time="0.061"/>
+        <testcase name="Then User should be taken to the successful login page2" classname="Scenario: Log into account with correct credentials" time="0.006">
+          <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".alert\ alert\-danger"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ade5d5f7500fe6098a14d61440340c9b
+*** Element info: {Using=class name, value=alert alert-danger}&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)&#13;
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;
+	at CucumberFramework.Steps.LoginSteps.user_should_be_taken_to_the_successful_login_page(LoginSteps.java:96)&#13;
+	at ✽.Then User should be taken to the successful login page2(Login2.feature:10)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

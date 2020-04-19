@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner" project="Webstore" tests="12" started="12" failures="0" errors="0" ignored="12">
+  <testsuite name="Runner.MainRunner" time="0.029">
+    <testsuite name="Feature: Login into account" time="0.015">
+      <testsuite name="Scenario: Log into account with correct credentials" time="0.015" incomplete="true">
+        <skipped/>
+        <testcase name="Given user navigates on website" classname="Scenario: Log into account with correct credentials" time="0.007" ignored="true"/>
+        <testcase name="And User clicks on the login button on homepage" classname="Scenario: Log into account with correct credentials" time="0.001" ignored="true"/>
+        <testcase name="And User enters a valid username" classname="Scenario: Log into account with correct credentials" time="0.002" ignored="true"/>
+        <testcase name="And User enters a valid password" classname="Scenario: Log into account with correct credentials" time="0.002" ignored="true"/>
+        <testcase name="When user clicks on the login button" classname="Scenario: Log into account with correct credentials" time="0.001" ignored="true"/>
+        <testcase name="Then User should be taken to the successful login page" classname="Scenario: Log into account with correct credentials" time="0.002" ignored="true"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login into account" time="0.006">
+      <testsuite name="Scenario: Log into account with correct credentials" time="0.006" incomplete="true">
+        <skipped/>
+        <testcase name="Given user navigates on website2" classname="Scenario: Log into account with correct credentials" time="0.002" ignored="true"/>
+        <testcase name="And User clicks on the login button on homepage2" classname="Scenario: Log into account with correct credentials" time="0.0" ignored="true"/>
+        <testcase name="And User enters a valid username2" classname="Scenario: Log into account with correct credentials" time="0.002" ignored="true"/>
+        <testcase name="And User enters a valid password2" classname="Scenario: Log into account with correct credentials" time="0.0" ignored="true"/>
+        <testcase name="When user clicks on the login button2" classname="Scenario: Log into account with correct credentials" time="0.001" ignored="true"/>
+        <testcase name="Then User should be taken to the successful login page2" classname="Scenario: Log into account with correct credentials" time="0.001" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
