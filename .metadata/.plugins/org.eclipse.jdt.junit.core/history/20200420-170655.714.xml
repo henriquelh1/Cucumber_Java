@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner (1)" project="WebDriverUniversity" tests="28" started="28" failures="0" errors="0" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="63.075">
+    <testsuite name="Feature: Submit data to webdriveruniversity.com using contact us form" time="29.363">
+      <testsuite name="Scenario: Submit information using the contact us form" time="9.33">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit information using the contact us form" time="3.269"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit information using the contact us form" time="4.375"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit information using the contact us form" time="0.14"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit information using the contact us form" time="0.227"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Submit information using the contact us form" time="0.226"/>
+        <testcase name="And I enter comments1" classname="Scenario: Submit information using the contact us form" time="0.993"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit information using the contact us form" time="0.098"/>
+        <testcase name="Then confirmation" classname="Scenario: Submit information using the contact us form" time="0.002"/>
+      </testsuite>
+      <testsuite name="Scenario: Submit invalid information using the contact us form" time="8.984">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit invalid information using the contact us form" time="3.228"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit invalid information using the contact us form" time="4.397"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit invalid information using the contact us form" time="0.162"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit invalid information using the contact us form" time="0.186"/>
+        <testcase name="And I enter an email address2" classname="Scenario: Submit invalid information using the contact us form" time="0.269"/>
+        <testcase name="And I enter comments1" classname="Scenario: Submit invalid information using the contact us form" time="0.66"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit invalid information using the contact us form" time="0.079"/>
+        <testcase name="Then invalid confirmation" classname="Scenario: Submit invalid information using the contact us form" time="0.003"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login to account at webdriveruniversity.com using login portal" time="22.696">
+      <testsuite name="Scenario: Login to account correct password" time="5.243">
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account correct password" time="0.524"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account correct password" time="4.319"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account correct password" time="0.249"/>
+        <testcase name="And I enter a &quot;webdriver123&quot; password" classname="Scenario: Login to account correct password" time="0.131"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account correct password" time="0.019"/>
+        <testcase name="Then I should be presented wit a successful validation alert" classname="Scenario: Login to account correct password" time="0.001"/>
+      </testsuite>
+      <testsuite name="Scenario: Login to account with a invalid password" time="6.17">
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account with a invalid password" time="0.378"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account with a invalid password" time="4.395"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account with a invalid password" time="0.168"/>
+        <testcase name="And I enter a &quot;invalid&quot; password" classname="Scenario: Login to account with a invalid password" time="0.135"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account with a invalid password" time="0.02"/>
+        <testcase name="Then I should be presented with a unsuccessful validation alert" classname="Scenario: Login to account with a invalid password" time="1.074"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

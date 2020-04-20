@@ -1,0 +1,25 @@
+Feature: Submit data to webdriveruniversity.com using contact us form 
+		A user should submit information via the contact us form
+		
+Background:
+	Given I access webdriveruniversity1
+	When I click on the contact1
+
+Scenario: Submit information using the contact us form
+	
+	And I enter first name1
+	And I enter last name1
+	And I enter an email address1
+	And I enter comments1
+	And I click on the submit button1
+	Then the info should successfully be submitted via the the contact us form1
+	
+Scenario: Submit non valid data via the contact us form
+	
+	And I enter non first name2
+	And I enter last name2
+	And I enter an email address2
+	And I enter comments2
+	When I click on the submit button1
+	Then the info should successfully be submitted via the the contact us form2
+	
