@@ -14,7 +14,6 @@ Scenario: Submit information using the contact us form
 	And I click on the submit button1
 	Then confirmation
 	
-
 Scenario: Submit invalid information using the contact us form
 	
 	And I enter first name1
@@ -23,3 +22,12 @@ Scenario: Submit invalid information using the contact us form
 	And I enter comments1
 	And I click on the submit button1
 	Then invalid confirmation 
+	
+Scenario: Reset information using Reset button on the contact us form
+	
+	And I enter first name1
+	And I enter last name1
+	And I enter an email address1
+	And I enter comments1
+	And I click on the reset button
+	Then empty confirmation
