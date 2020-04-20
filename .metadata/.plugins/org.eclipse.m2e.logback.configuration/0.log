@@ -802,3 +802,7 @@ Caused by: java.io.EOFException: no more data available - expected end tag </pro
 2020-04-20 21:25:30,467 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\main\resources
 2020-04-20 21:25:30,470 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-04-20 21:25:30,471 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\test\resources
+2020-04-20 21:29:58,603 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 21:29:58,603 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\main\resources
+2020-04-20 21:29:58,605 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 21:29:58,605 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\test\resources

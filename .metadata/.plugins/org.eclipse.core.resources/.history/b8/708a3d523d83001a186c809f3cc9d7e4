@@ -78,6 +78,7 @@ public class ContactUs {
 	@And("^I click on the reset button$")
 	public void i_click_on_the_reset_button() throws Throwable {
 		driver.findElement(By.xpath("//input[@value='RESET']")).click();
+		//driver.findElement(By.name("message")).sendKeys("ksnkanksnknknas"); 
 		
 	}
 	
