@@ -720,3 +720,24 @@ Caused by: java.io.EOFException: no more data available - expected end tag </pro
 2020-04-20 19:22:01,978 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\test\resources
 2020-04-20 19:22:24,087 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-04-20 19:22:24,088 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\main\resources
+2020-04-20 19:22:24,093 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:22:24,093 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\test\resources
+2020-04-20 19:31:24,700 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:31:24,700 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\main\resources
+2020-04-20 19:31:24,703 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:31:24,703 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\test\resources
+2020-04-20 19:33:30,940 [Worker-33: Launching MainRunner (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:33:30,941 [Worker-33: Launching MainRunner (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\main\resources
+2020-04-20 19:33:30,944 [Worker-33: Launching MainRunner (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:33:30,944 [Worker-33: Launching MainRunner (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\test\resources
+2020-04-20 19:36:09,308 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:36:09,309 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\main\resources
+2020-04-20 19:36:09,312 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:36:09,313 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\test\resources
+2020-04-20 19:36:39,446 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:36:39,446 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\main\resources
+2020-04-20 19:36:39,448 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:36:39,448 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\test\resources
+2020-04-20 19:37:30,685 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-20 19:37:30,685 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\luis_marreiros\Desktop\Cucumber\WebDriverUniversity\src\main\resources
+2020-04-20 19:37:30,687 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

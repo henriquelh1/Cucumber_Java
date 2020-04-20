@@ -17,8 +17,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class ContactUs {
-	
 	WebDriver driver;
+	
+	
 		
 	@Given("^I access webdriveruniversity1$")
 	public void i_access_webdriveruniversity() throws Throwable {

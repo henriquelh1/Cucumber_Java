@@ -17,8 +17,12 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class ContactUs {
-	
 	WebDriver driver;
+	
+	@After
+	public void tearDown() {
+		driver.quit();
+	}
 		
 	@Given("^I access webdriveruniversity1$")
 	public void i_access_webdriveruniversity() throws Throwable {
@@ -78,8 +82,9 @@ public class ContactUs {
 	}
 	@Then("^invalid confirmation$")
 	public void confirmation2() throws Throwable {
-		
+		System.out.println("Pos assert aquiiiiiiiiiiiiiiii");
 		String text = driver.findElement(By.tagName("body")).getText();
+		System.out.println("AQUIIIIIIIIIIIIDKDNKDNKDNDNKDKNDd"+text);
 		assertEquals(text, "Error: Invalid email address");
 		
 	}

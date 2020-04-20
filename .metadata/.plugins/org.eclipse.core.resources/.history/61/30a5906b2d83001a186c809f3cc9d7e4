@@ -10,15 +10,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class LoginStep {
-	
 	public static WebDriver driver;
 
+	@After
+	public void tearDown() {
+		driver.quit();
+	}
 
 @Given("^I access webdriveruniversity$")
 public void i_access_webdriveruniversity() throws Throwable {
@@ -49,7 +52,7 @@ public void i_enter_username() throws Throwable {
 @When("^I enter a \"([^\"]*)\" password$")
 public void i_enter_a_password(String password) throws Throwable {
 	driver.findElement(By.id("password")).sendKeys(password); 
-	
+	System.out.println("password aquiiiii"+ password);
 }
 
 @When("^I click on the login button$")
@@ -59,6 +62,8 @@ public void i_click_on_the_login_button() throws Throwable {
 @Then("^I should be presented wit a successful validation alert$")
 public void i_should_be_presented_wit_a_successful_validation_alert() throws Throwable {
 	Alert alert = driver.switchTo().alert();
+	System.out.println(alert.getText());
+	
 	Assert.assertEquals(alert.getText(), "validation succeeded");
 
 }
@@ -66,6 +71,8 @@ public void i_should_be_presented_wit_a_successful_validation_alert() throws Thr
 @Then("^I should be presented with a unsuccessful validation alert$")
 public void i_should_be_presented_wit_a_unsuccessful_validation_alert() throws Throwable {
 	Alert alert = driver.switchTo().alert();
+	System.out.println(alert.getText());
+	
 	Assert.assertEquals(alert.getText(), "validation failed");
 
 }

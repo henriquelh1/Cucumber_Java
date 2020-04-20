@@ -27,14 +27,14 @@ formatter.match({
   "location": "ContactUs.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 15979391700,
+  "duration": 12538495600,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_click_on_the_login_contact_button()"
 });
 formatter.result({
-  "duration": 3659522101,
+  "duration": 3246806800,
   "status": "passed"
 });
 formatter.scenario({
@@ -79,42 +79,42 @@ formatter.match({
   "location": "ContactUs.i_enter_first_name()"
 });
 formatter.result({
-  "duration": 4871626000,
+  "duration": 4510119600,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_enter_last_name()"
 });
 formatter.result({
-  "duration": 218518999,
+  "duration": 217522800,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_enter_an_email_address()"
 });
 formatter.result({
-  "duration": 407275999,
+  "duration": 198315600,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_enter_comment()"
 });
 formatter.result({
-  "duration": 345115200,
+  "duration": 244729500,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_click_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 1102609700,
+  "duration": 1205662600,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.confirmation()"
 });
 formatter.result({
-  "duration": 150857501,
+  "duration": 153989900,
   "status": "passed"
 });
 formatter.background({
@@ -138,14 +138,14 @@ formatter.match({
   "location": "ContactUs.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 14009618200,
+  "duration": 12482005600,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_click_on_the_login_contact_button()"
 });
 formatter.result({
-  "duration": 3785101400,
+  "duration": 3263452300,
   "status": "passed"
 });
 formatter.scenario({
@@ -190,42 +190,42 @@ formatter.match({
   "location": "ContactUs.i_enter_first_name()"
 });
 formatter.result({
-  "duration": 5026031600,
+  "duration": 4341419800,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_enter_last_name()"
 });
 formatter.result({
-  "duration": 299978201,
+  "duration": 123481000,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_enter_an_email_address2()"
 });
 formatter.result({
-  "duration": 329020700,
+  "duration": 125776400,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_enter_comment()"
 });
 formatter.result({
-  "duration": 605960299,
+  "duration": 189542700,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.i_click_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 770691500,
+  "duration": 640329200,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.confirmation2()"
 });
 formatter.result({
-  "duration": 132036000,
+  "duration": 73081700,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -262,21 +262,21 @@ formatter.match({
   "location": "LoginStep.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 14071558700,
+  "duration": 11093147200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_click_on_the_login_portal_button()"
 });
 formatter.result({
-  "duration": 731089800,
+  "duration": 248583400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_enter_username()"
 });
 formatter.result({
-  "duration": 5752220600,
+  "duration": 4363444700,
   "status": "passed"
 });
 formatter.scenario({
@@ -312,21 +312,21 @@ formatter.match({
   "location": "LoginStep.i_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 654856600,
+  "duration": 212767100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_click_on_the_login_button()"
 });
 formatter.result({
-  "duration": 232602800,
+  "duration": 137055200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_should_be_presented_wit_a_successful_validation_alert()"
 });
 formatter.result({
-  "duration": 111196301,
+  "duration": 11961500,
   "status": "passed"
 });
 formatter.background({
@@ -355,21 +355,21 @@ formatter.match({
   "location": "LoginStep.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 17357046400,
+  "duration": 11620662600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_click_on_the_login_portal_button()"
 });
 formatter.result({
-  "duration": 1058573600,
+  "duration": 586508100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_enter_username()"
 });
 formatter.result({
-  "duration": 5325083599,
+  "duration": 4427095000,
   "status": "passed"
 });
 formatter.scenario({
@@ -405,21 +405,21 @@ formatter.match({
   "location": "LoginStep.i_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 501643800,
+  "duration": 160056500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_click_on_the_login_button()"
 });
 formatter.result({
-  "duration": 669566600,
+  "duration": 138017800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_should_be_presented_wit_a_unsuccessful_validation_alert()"
 });
 formatter.result({
-  "duration": 305924101,
+  "duration": 5860300,
   "status": "passed"
 });
 });
