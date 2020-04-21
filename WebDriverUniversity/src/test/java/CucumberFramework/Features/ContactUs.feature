@@ -10,9 +10,11 @@ Scenario: Submit information using the contact us form
 	And I enter first name1
 	And I enter last name1
 	And I enter an email address1
-	And I enter comments1
+	And I enter comments using data table
+	| Here Coment 1 | Here Comment 2 |
+	| Here Coment 3 | Here Comment 4 |
 	And I click on the submit button1
-	Then confirmation
+	Then confirmation 
 	
 Scenario: Submit invalid information using the contact us form
 	

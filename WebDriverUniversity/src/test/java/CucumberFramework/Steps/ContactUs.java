@@ -2,17 +2,16 @@ package CucumberFramework.Steps;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.Set;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
+import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -65,11 +64,19 @@ public class ContactUs {
 		driver.findElement(By.name("email")).sendKeys("lulw"); 
 	}
 	
-	@And("^I enter comments1$")
-	public void i_enter_comment() throws Throwable {
-		driver.findElement(By.name("message")).sendKeys("ksnkanksnknknas"); 
+	@And("^I enter comments using data table$")
+	public void i_enter_comment(DataTable table) throws Throwable {
+		List<List<String>> data = table.raw();
+		driver.findElement(By.name("message")).sendKeys(data.get(0).get(1)); 
+		driver.findElement(By.name("message")).sendKeys(data.get(1).get(0)); 
 	}
 	
+	@And("^I enter comments1$")
+	public void i_enter_comment() throws Throwable {
+		
+		driver.findElement(By.name("message")).sendKeys("Test Test Test Test Test"); 
+		
+	}
 	@And("^I click on the submit button1$")
 	public void i_click_on_the_submit_button() throws Throwable {
 		driver.findElement(By.xpath("//input[@value='SUBMIT']")).click();
