@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner (1)" project="WebDriverUniversity" tests="12" started="12" failures="2" errors="0" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="19.494">
+    <testsuite name="Feature: Login to Account" time="19.494">
+      <testsuite name="Scenario Outline: Longin to account with correct credentials" time="19.494">
+        <testsuite name="Examples:" time="19.494">
+          <testsuite name="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="4.537">
+            <testcase name="Given user navigates to &quot;http://www.webdriveruniversity.com&quot;" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.145"/>
+            <testcase name="When user clicks on the login portal button" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="4.203"/>
+            <testcase name="And user enters the &quot;user1&quot; username" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.082"/>
+            <testcase name="And user enters the &quot;pass1&quot; password" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.082"/>
+            <testcase name="When user clicks on the login button" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.023"/>
+            <testcase name="Then the user should be presented with the following prompt alert &quot;validation failed&quot;" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.002"/>
+          </testsuite>
+          <testsuite name="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeed |" time="4.601" incomplete="true">
+            <failure>
+              <expected>validationsucceeded</expected>
+              <actual>validationsucceed</actual>
+              org.junit.ComparisonFailure: expected:&lt;validationsucceed[ed]&gt; but was:&lt;validationsucceed[]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at CucumberFramework.st.OutilinesStep.the_user_should_be_presented_with_the_following_prompt_alert(OutilinesStep.java:60)&#13;
+	at ✽.Then the user should be presented with the following prompt alert "validation succeed"(ScenariosOutlines.feature:10)&#13;
+&#13;
+
+            </failure>
+            <testcase name="Given user navigates to &quot;http://www.webdriveruniversity.com&quot;" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeed |" time="0.171"/>
+            <testcase name="When user clicks on the login portal button" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeed |" time="4.236"/>
+            <testcase name="And user enters the &quot;webdriver&quot; username" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeed |" time="0.1"/>
+            <testcase name="And user enters the &quot;webdriver123&quot; password" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeed |" time="0.079"/>
+            <testcase name="When user clicks on the login button" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeed |" time="0.01"/>
+            <testcase name="Then the user should be presented with the following prompt alert &quot;validation succeed&quot;" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeed |" time="0.005">
+              <failure>
+                <expected>validationsucceeded</expected>
+                <actual>validationsucceed</actual>
+                org.junit.ComparisonFailure: expected:&lt;validationsucceed[ed]&gt; but was:&lt;validationsucceed[]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at CucumberFramework.st.OutilinesStep.the_user_should_be_presented_with_the_following_prompt_alert(OutilinesStep.java:60)&#13;
+	at ✽.Then the user should be presented with the following prompt alert "validation succeed"(ScenariosOutlines.feature:10)&#13;
+&#13;
+
+              </failure>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

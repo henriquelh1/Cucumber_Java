@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner (1)" project="WebDriverUniversity" tests="36" started="36" failures="0" errors="4" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="123.043">
+    <testsuite name="Feature: Submit data to webdriveruniversity.com using contact us form" time="71.34">
+      <testsuite name="Scenario: Submit information using the contact us form" time="10.73">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit information using the contact us form" time="3.445"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit information using the contact us form" time="4.27"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit information using the contact us form" time="0.137"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit information using the contact us form" time="0.186"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Submit information using the contact us form" time="0.315"/>
+        <testcase name="And I enter comments using data table" classname="Scenario: Submit information using the contact us form" time="0.883"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit information using the contact us form" time="0.107"/>
+        <testcase name="Then confirmation" classname="Scenario: Submit information using the contact us form" time="1.387"/>
+      </testsuite>
+      <testsuite name="Scenario: Submit invalid information using the contact us form" time="10.32">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit invalid information using the contact us form" time="3.195"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit invalid information using the contact us form" time="4.26"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit invalid information using the contact us form" time="0.145"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit invalid information using the contact us form" time="0.136"/>
+        <testcase name="And I enter an email address2" classname="Scenario: Submit invalid information using the contact us form" time="0.27"/>
+        <testcase name="And I enter comments1" classname="Scenario: Submit invalid information using the contact us form" time="0.708"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit invalid information using the contact us form" time="0.222"/>
+        <testcase name="Then invalid confirmation" classname="Scenario: Submit invalid information using the contact us form" time="1.384"/>
+      </testsuite>
+      <testsuite name="Scenario: Reset information using Reset button on the contact us form" time="9.962">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Reset information using Reset button on the contact us form" time="3.431"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Reset information using Reset button on the contact us form" time="4.265"/>
+        <testcase name="And I enter first name1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.135"/>
+        <testcase name="And I enter last name1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.192"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.245"/>
+        <testcase name="And I enter comments1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.11"/>
+        <testcase name="And I click on the reset button" classname="Scenario: Reset information using Reset button on the contact us form" time="0.21"/>
+        <testcase name="Then empty confirmation" classname="Scenario: Reset information using Reset button on the contact us form" time="1.374"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login to account at webdriveruniversity.com using login portal" time="31.409">
+      <testsuite name="Scenario: Login to account correct password" time="4.832" incomplete="true">
+        <error>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation succeeded}
+  (Session info: chrome=81.0.4044.113): validation succeeded
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 49fe36de15dd9e919d14f1294f928236&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)&#13;
+	at CucumberFramework.Steps.LoginStep.i_should_be_presented_wit_a_successful_validation_alert(LoginStep.java:74)&#13;
+	at ✽.Then I should be presented wit a successful validation alert(Login.feature:11)&#13;
+&#13;
+</error>
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account correct password" time="0.251"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account correct password" time="4.225"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account correct password" time="0.182"/>
+        <testcase name="And I enter a &quot;webdriver123&quot; password" classname="Scenario: Login to account correct password" time="0.12"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account correct password" time="0.047"/>
+        <testcase name="Then I should be presented wit a successful validation alert" classname="Scenario: Login to account correct password" time="0.007">
+          <error>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation succeeded}
+  (Session info: chrome=81.0.4044.113): validation succeeded
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 49fe36de15dd9e919d14f1294f928236&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)&#13;
+	at CucumberFramework.Steps.LoginStep.i_should_be_presented_wit_a_successful_validation_alert(LoginStep.java:74)&#13;
+	at ✽.Then I should be presented wit a successful validation alert(Login.feature:11)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Scenario: Login to account with a invalid password" time="4.759" incomplete="true">
+        <error>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation failed}
+  (Session info: chrome=81.0.4044.113): validation failed
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c1465a6169516ace317342292b4b723&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)&#13;
+	at CucumberFramework.Steps.LoginStep.i_should_be_presented_wit_a_unsuccessful_validation_alert(LoginStep.java:82)&#13;
+	at ✽.Then I should be presented with a unsuccessful validation alert(Login.feature:16)&#13;
+&#13;
+</error>
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account with a invalid password" time="0.277"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account with a invalid password" time="4.244"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account with a invalid password" time="0.137"/>
+        <testcase name="And I enter a &quot;invalid&quot; password" classname="Scenario: Login to account with a invalid password" time="0.084"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account with a invalid password" time="0.016"/>
+        <testcase name="Then I should be presented with a unsuccessful validation alert" classname="Scenario: Login to account with a invalid password" time="0.001">
+          <error>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation failed}
+  (Session info: chrome=81.0.4044.113): validation failed
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c1465a6169516ace317342292b4b723&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)&#13;
+	at CucumberFramework.Steps.LoginStep.i_should_be_presented_wit_a_unsuccessful_validation_alert(LoginStep.java:82)&#13;
+	at ✽.Then I should be presented with a unsuccessful validation alert(Login.feature:16)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

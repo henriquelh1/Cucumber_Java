@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner (1)" project="WebDriverUniversity" tests="48" started="48" failures="0" errors="4" ignored="8">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="88.537">
+    <testsuite name="Feature: Submit data to webdriveruniversity.com using contact us form" time="46.339">
+      <testsuite name="Scenario: Submit information using the contact us form" time="9.052">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit information using the contact us form" time="3.153"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit information using the contact us form" time="4.286"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit information using the contact us form" time="0.08"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit information using the contact us form" time="0.147"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Submit information using the contact us form" time="0.224"/>
+        <testcase name="And I enter comments using data table" classname="Scenario: Submit information using the contact us form" time="0.968"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit information using the contact us form" time="0.192"/>
+        <testcase name="Then confirmation" classname="Scenario: Submit information using the contact us form" time="0.002"/>
+      </testsuite>
+      <testsuite name="Scenario: Submit invalid information using the contact us form" time="8.478">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit invalid information using the contact us form" time="3.105"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit invalid information using the contact us form" time="4.209"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit invalid information using the contact us form" time="0.129"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit invalid information using the contact us form" time="0.118"/>
+        <testcase name="And I enter an email address2" classname="Scenario: Submit invalid information using the contact us form" time="0.122"/>
+        <testcase name="And I enter comments1" classname="Scenario: Submit invalid information using the contact us form" time="0.598"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit invalid information using the contact us form" time="0.196"/>
+        <testcase name="Then invalid confirmation" classname="Scenario: Submit invalid information using the contact us form" time="0.001"/>
+      </testsuite>
+      <testsuite name="Scenario: Reset information using Reset button on the contact us form" time="8.131">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Reset information using Reset button on the contact us form" time="3.218"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Reset information using Reset button on the contact us form" time="4.251"/>
+        <testcase name="And I enter first name1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.106"/>
+        <testcase name="And I enter last name1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.134"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.097"/>
+        <testcase name="And I enter comments1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.061"/>
+        <testcase name="And I click on the reset button" classname="Scenario: Reset information using Reset button on the contact us form" time="0.259"/>
+        <testcase name="Then empty confirmation" classname="Scenario: Reset information using Reset button on the contact us form" time="0.005"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login to account at webdriveruniversity.com using login portal" time="6.82">
+      <testsuite name="Scenario: Login to account correct password" time="0.105" incomplete="true">
+        <error>org.openqa.selenium.ElementNotInteractableException: Element &lt;a id="login-portal" href="Login-Portal/index.html"&gt; could not be scrolled into view
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 16472, moz:profile: C:\Users\luis_marreiros\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 614cedfc-4ac8-4594-a69d-c047a9c69c70&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#13;
+	at CucumberFramework.Steps.LoginBackgroundStep.i_click_on_the_login_portal_button(LoginBackgroundStep.java:40)&#13;
+	at ✽.When I click on the login portal button(LoginBackground.feature:5)&#13;
+&#13;
+</error>
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account correct password" time="0.09"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account correct password" time="0.014">
+          <error>org.openqa.selenium.ElementNotInteractableException: Element &lt;a id="login-portal" href="Login-Portal/index.html"&gt; could not be scrolled into view
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 16472, moz:profile: C:\Users\luis_marreiros\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 614cedfc-4ac8-4594-a69d-c047a9c69c70&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#13;
+	at CucumberFramework.Steps.LoginBackgroundStep.i_click_on_the_login_portal_button(LoginBackgroundStep.java:40)&#13;
+	at ✽.When I click on the login portal button(LoginBackground.feature:5)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And I enter username" classname="Scenario: Login to account correct password" time="0.01" ignored="true"/>
+        <testcase name="And I enter a &quot;webdriver123&quot; password" classname="Scenario: Login to account correct password" time="0.002" ignored="true"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account correct password" time="0.0" ignored="true"/>
+        <testcase name="Then I should be presented wit a successful validation alert" classname="Scenario: Login to account correct password" time="0.0" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Login to account with a invalid password" time="0.041" incomplete="true">
+        <error>org.openqa.selenium.ElementNotInteractableException: Element &lt;a id="login-portal" href="Login-Portal/index.html"&gt; could not be scrolled into view
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 8780, moz:profile: C:\Users\luis_marreiros\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ec95cca-fe12-4ce2-988d-d07f8410da10&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#13;
+	at CucumberFramework.Steps.LoginBackgroundStep.i_click_on_the_login_portal_button(LoginBackgroundStep.java:40)&#13;
+	at ✽.When I click on the login portal button(LoginBackground.feature:5)&#13;
+&#13;
+</error>
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account with a invalid password" time="0.041"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account with a invalid password" time="0.0">
+          <error>org.openqa.selenium.ElementNotInteractableException: Element &lt;a id="login-portal" href="Login-Portal/index.html"&gt; could not be scrolled into view
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 8780, moz:profile: C:\Users\luis_marreiros\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ec95cca-fe12-4ce2-988d-d07f8410da10&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#13;
+	at CucumberFramework.Steps.LoginBackgroundStep.i_click_on_the_login_portal_button(LoginBackgroundStep.java:40)&#13;
+	at ✽.When I click on the login portal button(LoginBackground.feature:5)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And I enter username" classname="Scenario: Login to account with a invalid password" time="0.004" ignored="true"/>
+        <testcase name="And I enter a &quot;invalid&quot; password" classname="Scenario: Login to account with a invalid password" time="0.002" ignored="true"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account with a invalid password" time="0.001" ignored="true"/>
+        <testcase name="Then I should be presented with a unsuccessful validation alert" classname="Scenario: Login to account with a invalid password" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login to Account" time="19.877">
+      <testsuite name="Scenario Outline: Longin to account with correct credentials" time="19.877">
+        <testsuite name="Examples:" time="19.877">
+          <testsuite name="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="4.489">
+            <testcase name="Given user navigates to &quot;http://www.webdriveruniversity.com&quot;" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.155"/>
+            <testcase name="When user clicks on the login portal button" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="4.176"/>
+            <testcase name="And user enters the &quot;user1&quot; username" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.069"/>
+            <testcase name="And user enters the &quot;pass1&quot; password" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.065"/>
+            <testcase name="When user clicks on the login button" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.021"/>
+            <testcase name="Then the user should be presented with the following prompt alert &quot;validation failed&quot;" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.003"/>
+          </testsuite>
+          <testsuite name="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeeded |" time="5.063">
+            <testcase name="Given user navigates to &quot;http://www.webdriveruniversity.com&quot;" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeeded |" time="0.176"/>
+            <testcase name="When user clicks on the login portal button" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeeded |" time="4.197"/>
+            <testcase name="And user enters the &quot;webdriver&quot; username" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeeded |" time="0.173"/>
+            <testcase name="And user enters the &quot;webdriver123&quot; password" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeeded |" time="0.081"/>
+            <testcase name="When user clicks on the login button" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeeded |" time="0.01"/>
+            <testcase name="Then the user should be presented with the following prompt alert &quot;validation succeeded&quot;" classname="| http://www.webdriveruniversity.com | webdriver | webdriver123 | validation succeeded |" time="0.426"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

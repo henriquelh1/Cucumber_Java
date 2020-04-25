@@ -3,7 +3,6 @@ INDEX VERSION 1.131+C:\Users\luis_marreiros\Desktop\Cucumber\.metadata\.plugins\
 361756876.index
 2304816575.index
 977921534.index
-3478946642.index
 1131161318.index
 3166559123.index
 3069000344.index

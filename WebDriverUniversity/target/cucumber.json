@@ -11,25 +11,25 @@
         "steps": [
           {
             "result": {
-              "duration": 11397851501,
+              "duration": 12025085300,
               "status": "passed"
             },
             "line": 5,
             "name": "I access webdriveruniversity1",
             "match": {
-              "location": "ContactUs.i_access_webdriveruniversity()"
+              "location": "ContactUsMultScenario.i_access_webdriveruniversity()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3226816600,
+              "duration": 3370563800,
               "status": "passed"
             },
             "line": 6,
             "name": "I click on the contact1",
             "match": {
-              "location": "ContactUs.i_click_on_the_login_contact_button()"
+              "location": "ContactUsMultScenario.i_click_on_the_login_contact_button()"
             },
             "keyword": "When "
           }
@@ -45,49 +45,49 @@
         "steps": [
           {
             "result": {
-              "duration": 4240657401,
+              "duration": 4397663200,
               "status": "passed"
             },
             "line": 10,
             "name": "I enter first name1",
             "match": {
-              "location": "ContactUs.i_enter_first_name()"
+              "location": "ContactUsMultScenario.i_enter_first_name()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 119777499,
+              "duration": 209597800,
               "status": "passed"
             },
             "line": 11,
             "name": "I enter last name1",
             "match": {
-              "location": "ContactUs.i_enter_last_name()"
+              "location": "ContactUsMultScenario.i_enter_last_name()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 166847200,
+              "duration": 305372300,
               "status": "passed"
             },
             "line": 12,
             "name": "I enter an email address1",
             "match": {
-              "location": "ContactUs.i_enter_an_email_address()"
+              "location": "ContactUsMultScenario.i_enter_an_email_address()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 271727300,
+              "duration": 511847400,
               "status": "passed"
             },
             "line": 13,
             "name": "I enter comments using data table",
             "match": {
-              "location": "ContactUs.i_enter_comment(DataTable)"
+              "location": "ContactUsMultScenario.i_enter_comment(DataTable)"
             },
             "rows": [
               {
@@ -109,25 +109,25 @@
           },
           {
             "result": {
-              "duration": 1058347899,
+              "duration": 1232208900,
               "status": "passed"
             },
             "line": 16,
             "name": "I click on the submit button1",
             "match": {
-              "location": "ContactUs.i_click_on_the_submit_button()"
+              "location": "ContactUsMultScenario.i_click_on_the_submit_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 49061699,
+              "duration": 472438700,
               "status": "passed"
             },
             "line": 17,
             "name": "confirmation",
             "match": {
-              "location": "ContactUs.confirmation()"
+              "location": "ContactUsMultScenario.confirmation()"
             },
             "keyword": "Then "
           }
@@ -142,25 +142,25 @@
         "steps": [
           {
             "result": {
-              "duration": 10580073500,
+              "duration": 10804181100,
               "status": "passed"
             },
             "line": 5,
             "name": "I access webdriveruniversity1",
             "match": {
-              "location": "ContactUs.i_access_webdriveruniversity()"
+              "location": "ContactUsMultScenario.i_access_webdriveruniversity()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3356960600,
+              "duration": 3310568100,
               "status": "passed"
             },
             "line": 6,
             "name": "I click on the contact1",
             "match": {
-              "location": "ContactUs.i_click_on_the_login_contact_button()"
+              "location": "ContactUsMultScenario.i_click_on_the_login_contact_button()"
             },
             "keyword": "When "
           }
@@ -176,73 +176,73 @@
         "steps": [
           {
             "result": {
-              "duration": 4233626100,
+              "duration": 4356332700,
               "status": "passed"
             },
             "line": 21,
             "name": "I enter first name1",
             "match": {
-              "location": "ContactUs.i_enter_first_name()"
+              "location": "ContactUsMultScenario.i_enter_first_name()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 117873999,
+              "duration": 208895800,
               "status": "passed"
             },
             "line": 22,
             "name": "I enter last name1",
             "match": {
-              "location": "ContactUs.i_enter_last_name()"
+              "location": "ContactUsMultScenario.i_enter_last_name()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 119625200,
+              "duration": 186061800,
               "status": "passed"
             },
             "line": 23,
             "name": "I enter an email address2",
             "match": {
-              "location": "ContactUs.i_enter_an_email_address2()"
+              "location": "ContactUsMultScenario.i_enter_an_email_address2()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 220690799,
+              "duration": 353019000,
               "status": "passed"
             },
             "line": 24,
             "name": "I enter comments1",
             "match": {
-              "location": "ContactUs.i_enter_comment()"
+              "location": "ContactUsMultScenario.i_enter_comment()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 655413000,
+              "duration": 580487600,
               "status": "passed"
             },
             "line": 25,
             "name": "I click on the submit button1",
             "match": {
-              "location": "ContactUs.i_click_on_the_submit_button()"
+              "location": "ContactUsMultScenario.i_click_on_the_submit_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 100995899,
+              "duration": 397710900,
               "status": "passed"
             },
             "line": 26,
             "name": "invalid confirmation",
             "match": {
-              "location": "ContactUs.confirmation2()"
+              "location": "ContactUsMultScenario.confirmation2()"
             },
             "keyword": "Then "
           }
@@ -257,25 +257,25 @@
         "steps": [
           {
             "result": {
-              "duration": 11012269200,
+              "duration": 10655650400,
               "status": "passed"
             },
             "line": 5,
             "name": "I access webdriveruniversity1",
             "match": {
-              "location": "ContactUs.i_access_webdriveruniversity()"
+              "location": "ContactUsMultScenario.i_access_webdriveruniversity()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3180843100,
+              "duration": 3189779400,
               "status": "passed"
             },
             "line": 6,
             "name": "I click on the contact1",
             "match": {
-              "location": "ContactUs.i_click_on_the_login_contact_button()"
+              "location": "ContactUsMultScenario.i_click_on_the_login_contact_button()"
             },
             "keyword": "When "
           }
@@ -291,73 +291,73 @@
         "steps": [
           {
             "result": {
-              "duration": 4250411601,
+              "duration": 4277024800,
               "status": "passed"
             },
             "line": 30,
             "name": "I enter first name1",
             "match": {
-              "location": "ContactUs.i_enter_first_name()"
+              "location": "ContactUsMultScenario.i_enter_first_name()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 122316199,
+              "duration": 129390600,
               "status": "passed"
             },
             "line": 31,
             "name": "I enter last name1",
             "match": {
-              "location": "ContactUs.i_enter_last_name()"
+              "location": "ContactUsMultScenario.i_enter_last_name()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 173391000,
+              "duration": 195118400,
               "status": "passed"
             },
             "line": 32,
             "name": "I enter an email address1",
             "match": {
-              "location": "ContactUs.i_enter_an_email_address()"
+              "location": "ContactUsMultScenario.i_enter_an_email_address()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 235832501,
+              "duration": 244412400,
               "status": "passed"
             },
             "line": 33,
             "name": "I enter comments1",
             "match": {
-              "location": "ContactUs.i_enter_comment()"
+              "location": "ContactUsMultScenario.i_enter_comment()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 96320700,
+              "duration": 115162900,
               "status": "passed"
             },
             "line": 34,
             "name": "I click on the reset button",
             "match": {
-              "location": "ContactUs.i_click_on_the_reset_button()"
+              "location": "ContactUsMultScenario.i_click_on_the_reset_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 139912101,
+              "duration": 323095100,
               "status": "passed"
             },
             "line": 35,
             "name": "empty confirmation",
             "match": {
-              "location": "ContactUs.empty_confirmartion()"
+              "location": "ContactUsMultScenario.empty_confirmartion()"
             },
             "keyword": "Then "
           }
@@ -368,7 +368,7 @@
     "description": "A user should submit information via the contact us form",
     "id": "submit-data-to-webdriveruniversity.com-using-contact-us-form",
     "keyword": "Feature",
-    "uri": "ContactUs.feature"
+    "uri": "ContactUsMultipleScenario.feature"
   },
   {
     "line": 1,
@@ -382,37 +382,37 @@
         "steps": [
           {
             "result": {
-              "duration": 10538086399,
+              "duration": 10685444000,
               "status": "passed"
             },
             "line": 4,
             "name": "I access webdriveruniversity",
             "match": {
-              "location": "LoginStep.i_access_webdriveruniversity()"
+              "location": "LoginBackgroundStep.i_access_webdriveruniversity()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 383806499,
+              "duration": 389044700,
               "status": "passed"
             },
             "line": 5,
             "name": "I click on the login portal button",
             "match": {
-              "location": "LoginStep.i_click_on_the_login_portal_button()"
+              "location": "LoginBackgroundStep.i_click_on_the_login_portal_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4234679401,
+              "duration": 4481175500,
               "status": "passed"
             },
             "line": 6,
             "name": "I enter username",
             "match": {
-              "location": "LoginStep.i_enter_username()"
+              "location": "LoginBackgroundStep.i_enter_username()"
             },
             "keyword": "And "
           }
@@ -428,7 +428,7 @@
         "steps": [
           {
             "result": {
-              "duration": 186689001,
+              "duration": 396001800,
               "status": "passed"
             },
             "line": 9,
@@ -440,31 +440,31 @@
                   "offset": 11
                 }
               ],
-              "location": "LoginStep.i_enter_a_password(String)"
+              "location": "LoginBackgroundStep.i_enter_a_password(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 116610899,
+              "duration": 241422800,
               "status": "passed"
             },
             "line": 10,
             "name": "I click on the login button",
             "match": {
-              "location": "LoginStep.i_click_on_the_login_button()"
+              "location": "LoginBackgroundStep.i_click_on_the_login_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 7499700,
+              "duration": 367299300,
               "status": "passed"
             },
             "line": 11,
             "name": "I should be presented wit a successful validation alert",
             "match": {
-              "location": "LoginStep.i_should_be_presented_wit_a_successful_validation_alert()"
+              "location": "LoginBackgroundStep.i_should_be_presented_wit_a_successful_validation_alert()"
             },
             "keyword": "Then "
           }
@@ -479,37 +479,37 @@
         "steps": [
           {
             "result": {
-              "duration": 10902763500,
+              "duration": 10548647300,
               "status": "passed"
             },
             "line": 4,
             "name": "I access webdriveruniversity",
             "match": {
-              "location": "LoginStep.i_access_webdriveruniversity()"
+              "location": "LoginBackgroundStep.i_access_webdriveruniversity()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 286321499,
+              "duration": 238066100,
               "status": "passed"
             },
             "line": 5,
             "name": "I click on the login portal button",
             "match": {
-              "location": "LoginStep.i_click_on_the_login_portal_button()"
+              "location": "LoginBackgroundStep.i_click_on_the_login_portal_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4231358801,
+              "duration": 4412739600,
               "status": "passed"
             },
             "line": 6,
             "name": "I enter username",
             "match": {
-              "location": "LoginStep.i_enter_username()"
+              "location": "LoginBackgroundStep.i_enter_username()"
             },
             "keyword": "And "
           }
@@ -525,7 +525,7 @@
         "steps": [
           {
             "result": {
-              "duration": 157492500,
+              "duration": 308437300,
               "status": "passed"
             },
             "line": 14,
@@ -537,31 +537,31 @@
                   "offset": 11
                 }
               ],
-              "location": "LoginStep.i_enter_a_password(String)"
+              "location": "LoginBackgroundStep.i_enter_a_password(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 107582100,
+              "duration": 192907200,
               "status": "passed"
             },
             "line": 15,
             "name": "I click on the login button",
             "match": {
-              "location": "LoginStep.i_click_on_the_login_button()"
+              "location": "LoginBackgroundStep.i_click_on_the_login_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6430200,
+              "duration": 336625100,
               "status": "passed"
             },
             "line": 16,
             "name": "I should be presented with a unsuccessful validation alert",
             "match": {
-              "location": "LoginStep.i_should_be_presented_wit_a_unsuccessful_validation_alert()"
+              "location": "LoginBackgroundStep.i_should_be_presented_wit_a_unsuccessful_validation_alert()"
             },
             "keyword": "Then "
           }
@@ -572,6 +572,252 @@
     "description": "",
     "id": "login-to-account-at-webdriveruniversity.com-using-login-portal",
     "keyword": "Feature",
-    "uri": "Login.feature"
+    "uri": "LoginBackground.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Longin to account with correct credentials",
+        "description": "",
+        "id": "login-to-account;longin-to-account-with-correct-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11055284900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \"http://www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginScenarioOutline.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566971300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the login portal button",
+            "match": {
+              "location": "LoginScenarioOutline.user_clicks_on_the_login_portal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4404134600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the \"user1\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginScenarioOutline.user_enters_the_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264856300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the \"pass1\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass1",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginScenarioOutline.user_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138139200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "LoginScenarioOutline.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262533100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be presented with the following prompt alert \"validation failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation failed",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginScenarioOutline.the_user_should_be_presented_with_the_following_prompt_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Longin to account with correct credentials",
+        "description": "",
+        "id": "login-to-account;longin-to-account-with-correct-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10763738300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \"http://www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginScenarioOutline.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201061400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the login portal button",
+            "match": {
+              "location": "LoginScenarioOutline.user_clicks_on_the_login_portal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4342704600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the \"webdriver\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginScenarioOutline.user_enters_the_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229721100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the \"webdriver123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver123",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginScenarioOutline.user_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90345600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "LoginScenarioOutline.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204601800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be presented with the following prompt alert \"validation succeeded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation succeeded",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginScenarioOutline.the_user_should_be_presented_with_the_following_prompt_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Account",
+    "description": "",
+    "id": "login-to-account",
+    "keyword": "Feature",
+    "uri": "LoginScenarioOutline.feature"
   }
 ]

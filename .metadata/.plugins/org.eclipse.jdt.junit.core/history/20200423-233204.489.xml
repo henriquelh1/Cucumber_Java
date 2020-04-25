@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner (1)" project="WebDriverUniversity" tests="36" started="16" failures="0" errors="2" ignored="2">
+  <testsuite name="CucumberFramework.runner.MainRunner" incomplete="true">
+    <testsuite name="Feature: Submit data to webdriveruniversity.com using contact us form" incomplete="true">
+      <testsuite name="Scenario: Submit information using the contact us form" time="8.398" incomplete="true">
+        <error>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.113)
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e52bb88d311dfc51095c84d5e96b49df
+*** Element info: {Using=name, value=message}&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)&#13;
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;
+	at CucumberFramework.Steps.ContactUs.i_enter_comment(ContactUs.java:88)&#13;
+	at ✽.And I enter comments using data table(ContactUs.feature:13)&#13;
+&#13;
+</error>
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit information using the contact us form" time="3.583"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit information using the contact us form" time="4.27"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit information using the contact us form" time="0.125"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit information using the contact us form" time="0.184"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Submit information using the contact us form" time="0.223"/>
+        <testcase name="And I enter comments using data table" classname="Scenario: Submit information using the contact us form" time="0.012">
+          <error>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.113)
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e52bb88d311dfc51095c84d5e96b49df
+*** Element info: {Using=name, value=message}&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)&#13;
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;
+	at CucumberFramework.Steps.ContactUs.i_enter_comment(ContactUs.java:88)&#13;
+	at ✽.And I enter comments using data table(ContactUs.feature:13)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit information using the contact us form" time="0.004" ignored="true"/>
+        <testcase name="Then confirmation" classname="Scenario: Submit information using the contact us form" time="0.687" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Submit invalid information using the contact us form" time="14.696">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit invalid information using the contact us form" time="3.554"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit invalid information using the contact us form" time="4.312"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit invalid information using the contact us form" time="0.134"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit invalid information using the contact us form" time="0.119"/>
+        <testcase name="And I enter an email address2" classname="Scenario: Submit invalid information using the contact us form" time="0.194"/>
+        <testcase name="And I enter comments1" classname="Scenario: Submit invalid information using the contact us form" time="5.542"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit invalid information using the contact us form" time="0.145"/>
+        <testcase name="Then invalid confirmation" classname="Scenario: Submit invalid information using the contact us form" time="0.695"/>
+      </testsuite>
+      <testsuite name="Scenario: Reset information using Reset button on the contact us form" incomplete="true">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Reset information using Reset button on the contact us form" incomplete="true"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Reset information using Reset button on the contact us form" incomplete="true"/>
+        <testcase name="And I enter first name1" classname="Scenario: Reset information using Reset button on the contact us form" incomplete="true"/>
+        <testcase name="And I enter last name1" classname="Scenario: Reset information using Reset button on the contact us form" incomplete="true"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Reset information using Reset button on the contact us form" incomplete="true"/>
+        <testcase name="And I enter comments1" classname="Scenario: Reset information using Reset button on the contact us form" incomplete="true"/>
+        <testcase name="And I click on the reset button" classname="Scenario: Reset information using Reset button on the contact us form" incomplete="true"/>
+        <testcase name="Then empty confirmation" classname="Scenario: Reset information using Reset button on the contact us form" incomplete="true"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login to account at webdriveruniversity.com using login portal" incomplete="true">
+      <testsuite name="Scenario: Login to account correct password" incomplete="true">
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account correct password" incomplete="true"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account correct password" incomplete="true"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account correct password" incomplete="true"/>
+        <testcase name="And I enter a &quot;webdriver123&quot; password" classname="Scenario: Login to account correct password" incomplete="true"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account correct password" incomplete="true"/>
+        <testcase name="Then I should be presented wit a successful validation alert" classname="Scenario: Login to account correct password" incomplete="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Login to account with a invalid password" incomplete="true">
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="And I enter a &quot;invalid&quot; password" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="Then I should be presented with a unsuccessful validation alert" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

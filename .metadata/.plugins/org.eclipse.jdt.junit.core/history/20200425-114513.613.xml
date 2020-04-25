@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner (1)" project="WebDriverUniversity" tests="12" started="12" failures="0" errors="4" ignored="10">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="0.268">
+    <testsuite name="Feature: Login to Account" time="0.268">
+      <testsuite name="Scenario Outline: Longin to account with correct credentials" time="0.268">
+        <testsuite name="Examples:" time="0.268">
+          <testsuite name="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.002" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at CucumberFramework.st.OutilinesStep.user_navigates_to(OutilinesStep.java:19)&#13;
+	at ✽.Given user navigates to "http://www.webdriver.university.com"(ScenariosOutlines.feature:5)&#13;
+&#13;
+</error>
+            <testcase name="Given user navigates to &quot;http://www.webdriver.university.com&quot;" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.001">
+              <error>java.lang.NullPointerException&#13;
+	at CucumberFramework.st.OutilinesStep.user_navigates_to(OutilinesStep.java:19)&#13;
+	at ✽.Given user navigates to "http://www.webdriver.university.com"(ScenariosOutlines.feature:5)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="When user clicks on the login portal button" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.002" ignored="true"/>
+            <testcase name="And user enters the &quot;user1&quot; username" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.0" ignored="true"/>
+            <testcase name="And user enters the &quot;&lt;password&gt;&quot; password" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.001" ignored="true"/>
+            <testcase name="When user clicks on the login button" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.001" ignored="true"/>
+            <testcase name="Then the user should be presented with the following prompt aleert &quot;validation failed&quot;" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.0" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at CucumberFramework.st.OutilinesStep.user_navigates_to(OutilinesStep.java:19)&#13;
+	at ✽.Given user navigates to "http://www.webdriver.university.com"(ScenariosOutlines.feature:5)&#13;
+&#13;
+</error>
+            <testcase name="Given user navigates to &quot;http://www.webdriver.university.com&quot;" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.0">
+              <error>java.lang.NullPointerException&#13;
+	at CucumberFramework.st.OutilinesStep.user_navigates_to(OutilinesStep.java:19)&#13;
+	at ✽.Given user navigates to "http://www.webdriver.university.com"(ScenariosOutlines.feature:5)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="When user clicks on the login portal button" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.001" ignored="true"/>
+            <testcase name="And user enters the &quot;user1&quot; username" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.001" ignored="true"/>
+            <testcase name="And user enters the &quot;&lt;password&gt;&quot; password" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.001" ignored="true"/>
+            <testcase name="When user clicks on the login button" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.0" ignored="true"/>
+            <testcase name="Then the user should be presented with the following prompt aleert &quot;validation failed&quot;" classname="| http://www.webdriver.university.com | user1 | pass1 | validation failed |" time="0.25" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

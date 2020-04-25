@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner (1)" project="WebDriverUniversity" tests="36" started="30" failures="0" errors="2" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" incomplete="true">
+    <testsuite name="Feature: Submit data to webdriveruniversity.com using contact us form" time="49.504">
+      <testsuite name="Scenario: Submit information using the contact us form" time="10.045">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit information using the contact us form" time="3.4"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit information using the contact us form" time="4.277"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit information using the contact us form" time="0.111"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit information using the contact us form" time="0.182"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Submit information using the contact us form" time="0.269"/>
+        <testcase name="And I enter comments using data table" classname="Scenario: Submit information using the contact us form" time="0.916"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit information using the contact us form" time="0.127"/>
+        <testcase name="Then confirmation" classname="Scenario: Submit information using the contact us form" time="0.762"/>
+      </testsuite>
+      <testsuite name="Scenario: Submit invalid information using the contact us form" time="9.312">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit invalid information using the contact us form" time="3.221"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit invalid information using the contact us form" time="4.244"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit invalid information using the contact us form" time="0.119"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit invalid information using the contact us form" time="0.117"/>
+        <testcase name="And I enter an email address2" classname="Scenario: Submit invalid information using the contact us form" time="0.231"/>
+        <testcase name="And I enter comments1" classname="Scenario: Submit invalid information using the contact us form" time="0.542"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit invalid information using the contact us form" time="0.123"/>
+        <testcase name="Then invalid confirmation" classname="Scenario: Submit invalid information using the contact us form" time="0.714"/>
+      </testsuite>
+      <testsuite name="Scenario: Reset information using Reset button on the contact us form" time="9.157">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Reset information using Reset button on the contact us form" time="3.353"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Reset information using Reset button on the contact us form" time="4.293"/>
+        <testcase name="And I enter first name1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.112"/>
+        <testcase name="And I enter last name1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.176"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.213"/>
+        <testcase name="And I enter comments1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.118"/>
+        <testcase name="And I click on the reset button" classname="Scenario: Reset information using Reset button on the contact us form" time="0.193"/>
+        <testcase name="Then empty confirmation" classname="Scenario: Reset information using Reset button on the contact us form" time="0.699"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login to account at webdriveruniversity.com using login portal" incomplete="true">
+      <testsuite name="Scenario: Login to account correct password" time="5.02" incomplete="true">
+        <error>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation succeeded}
+  (Session info: chrome=81.0.4044.113): validation succeeded
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4827e5b4f2502f4987b9316b9baf4662&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)&#13;
+	at CucumberFramework.Steps.LoginStep.i_should_be_presented_wit_a_successful_validation_alert(LoginStep.java:63)&#13;
+	at ✽.Then I should be presented wit a successful validation alert(Login.feature:11)&#13;
+&#13;
+</error>
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account correct password" time="0.43"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account correct password" time="4.268"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account correct password" time="0.169"/>
+        <testcase name="And I enter a &quot;webdriver123&quot; password" classname="Scenario: Login to account correct password" time="0.104"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account correct password" time="0.042"/>
+        <testcase name="Then I should be presented wit a successful validation alert" classname="Scenario: Login to account correct password" time="0.007">
+          <error>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation succeeded}
+  (Session info: chrome=81.0.4044.113): validation succeeded
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:13.134Z'
+System info: host: 'EPPLKATW0255', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\LUIS_M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4827e5b4f2502f4987b9316b9baf4662&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)&#13;
+	at CucumberFramework.Steps.LoginStep.i_should_be_presented_wit_a_successful_validation_alert(LoginStep.java:63)&#13;
+	at ✽.Then I should be presented wit a successful validation alert(Login.feature:11)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Scenario: Login to account with a invalid password" incomplete="true">
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="And I enter a &quot;invalid&quot; password" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+        <testcase name="Then I should be presented with a unsuccessful validation alert" classname="Scenario: Login to account with a invalid password" incomplete="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
