@@ -10,19 +10,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import utils.DriverFactory;
 
-public class ProductsSteps {
-	WebDriver driver;
+public class ProductsSteps extends DriverFactory{
+	
 	String parentWindowHandle;
 	
 	
 	
 	@Given("^user navigates to \"([^\"]*)\" website$")
 	public void user_navigates_to_website(String url) throws Throwable {
-		System.setProperty("webdriver.chrome.driver", Paths.get(System.getProperty("user.dir")).toRealPath()+  "\\src\\test\\java\\CucumberFramework\\resources\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
+		
 			driver.get(url);
 			parentWindowHandle=driver.getWindowHandle();
 			

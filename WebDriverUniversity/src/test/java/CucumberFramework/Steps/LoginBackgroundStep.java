@@ -1,53 +1,56 @@
 package CucumberFramework.Steps;
 
 
-import java.nio.file.Paths;
-import java.util.concurrent.TimeUnit;
+
 
 
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import utils.DriverFactory;
 
-public class LoginBackgroundStep {
+public class LoginBackgroundStep extends DriverFactory {
 	
-	WebDriver driver;
+	
 	String parentWindowHandle;
 	
 	
 	@Given("^I access webdriveruniversity$")
 	public void i_access_webdriveruniversity() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", Paths.get(System.getProperty("user.dir")).toRealPath()+  "\\src\\test\\java\\CucumberFramework\\resources\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
+	
 			driver.get("http://www.webdriveruniversity.com");
 			parentWindowHandle=driver.getWindowHandle();
 	}
 
 	@When("^I click on the login portal button$")
-	public void i_click_on_the_login_portal_button()  {
+	public void i_click_on_the_login_portal_button() throws InterruptedException  {
 		
-		driver.findElement(By.id("login-portal")).click();
+		WebElement element = driver.findElement(By.id("login-portal"));  
+		JavascriptExecutor js = (JavascriptExecutor) driver;  
+		js.executeScript("arguments[0].click();",element);
+		
 	}
 
 	@When("^I enter username$")
-	public void i_enter_username()  {
+	public void i_enter_username() throws InterruptedException  {
+		Thread.sleep(2000);
 		@SuppressWarnings("unused")
+		
 		String winHandlerBefore = driver.getWindowHandle();
-
 			for(String winHandler: driver.getWindowHandles()) {
 				driver.switchTo().window(winHandler);
-			}
-		driver.findElement(By.id("text")).sendKeys("webdriver");
+		}
+			WebDriverWait wait = new WebDriverWait(driver, 10);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("text")));
+			driver.findElement(By.id("text")).sendKeys("webdriver");
 	}
 
 	@When("^I enter a \"([^\"]*)\" password$")
@@ -67,7 +70,6 @@ public class LoginBackgroundStep {
 	driver.switchTo().alert().dismiss();
 	driver.close();
 	driver.switchTo().window(parentWindowHandle );
-	driver.close();
 	
 	}
 
@@ -78,7 +80,7 @@ public class LoginBackgroundStep {
 	driver.switchTo().alert().dismiss();
 	driver.close();
 	driver.switchTo().window(parentWindowHandle );
-	driver.close();
+	
 	}
 	
 }

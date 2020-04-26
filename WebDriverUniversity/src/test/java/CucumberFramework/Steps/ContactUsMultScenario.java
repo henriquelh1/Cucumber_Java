@@ -16,21 +16,20 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import utils.DriverFactory;
 
-public class ContactUsMultScenario {
+public class ContactUsMultScenario extends DriverFactory {
 	
-	WebDriver driver;
+	
 	String parentWindowHandle;
 	
 	
 		
 	@Given("^I access webdriveruniversity1$")
 	public void i_access_webdriveruniversity() throws Throwable {
-		System.setProperty("webdriver.chrome.driver",   "C:\\Users\\luis_marreiros\\Desktop\\Cucumber\\WebDriverUniversity\\src\\test\\java\\CucumberFramework\\resources\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
-		driver.get("http://www.webdriveruniversity.com");
+		
+		MasterHooks.driver.get("http://www.webdriveruniversity.com");
+		
 		
 		 parentWindowHandle = driver.getWindowHandle();
 	}
@@ -73,7 +72,7 @@ public class ContactUsMultScenario {
 	public void i_enter_comment(DataTable table) throws Throwable {
 		List<List<String>> data = table.raw();
 		driver.findElement(By.name("message")).sendKeys(data.get(0).get(1)); 
-		driver.findElement(By.name("message")).sendKeys(data.get(1).get(0)); 
+		//driver.findElement(By.name("message")).sendKeys(data.get(1).get(0)); 
 	}
 	
 	@And("^I enter comments1$")
@@ -98,9 +97,9 @@ public class ContactUsMultScenario {
 		
 		String alert =driver.findElement(By.id("contact_reply")).getText();
 		Assert.assertEquals("Thank You for your Message!", alert);
-		driver.close();
+		//driver.close();
 		driver.switchTo().window(parentWindowHandle );
-		driver.close();
+		
 	}
 	
 	@Then("^invalid confirmation$")
@@ -108,9 +107,9 @@ public class ContactUsMultScenario {
 		
 		String text = driver.findElement(By.tagName("body")).getText();
 		assertEquals(text, "Error: Invalid email address");	
-		driver.close();
+		//driver.close();
 		driver.switchTo().window(parentWindowHandle );
-		driver.close();
+		
 	}
 	
 	@Then("^empty confirmation$")
@@ -122,9 +121,9 @@ public class ContactUsMultScenario {
 	 			!driver.findElement(By.name("email")).getAttribute("value").equals("") || 
 	 			!driver.findElement(By.name("message")).getAttribute("value").equals("") 
 	 					);
-	 	driver.close();
+	 	//driver.close();
 		driver.switchTo().window(parentWindowHandle );
-		driver.close();
+		
 	 
 	}
 	

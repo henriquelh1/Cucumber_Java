@@ -6,6 +6,10 @@ formatter.feature({
   "id": "submit-data-to-webdriveruniversity.com-using-contact-us-form",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 9573577000,
+  "status": "passed"
+});
 formatter.background({
   "line": 4,
   "name": "",
@@ -27,14 +31,14 @@ formatter.match({
   "location": "ContactUsMultScenario.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 10603355900,
+  "duration": 850352000,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_click_on_the_login_contact_button()"
 });
 formatter.result({
-  "duration": 3087898500,
+  "duration": 3129477400,
   "status": "passed"
 });
 formatter.scenario({
@@ -95,42 +99,50 @@ formatter.match({
   "location": "ContactUsMultScenario.i_enter_first_name()"
 });
 formatter.result({
-  "duration": 4156118700,
+  "duration": 4118656000,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_last_name()"
 });
 formatter.result({
-  "duration": 59037300,
+  "duration": 58974000,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_an_email_address()"
 });
 formatter.result({
-  "duration": 76023800,
+  "duration": 75730200,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_comment(DataTable)"
 });
 formatter.result({
-  "duration": 121939100,
+  "duration": 65377500,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_click_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 925559900,
+  "duration": 840715500,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.confirmation()"
 });
 formatter.result({
-  "duration": 183320900,
+  "duration": 53068700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 670387900,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9232210800,
   "status": "passed"
 });
 formatter.background({
@@ -154,14 +166,14 @@ formatter.match({
   "location": "ContactUsMultScenario.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 10091243300,
+  "duration": 735578600,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_click_on_the_login_contact_button()"
 });
 formatter.result({
-  "duration": 3095298800,
+  "duration": 3122879100,
   "status": "passed"
 });
 formatter.scenario({
@@ -206,42 +218,50 @@ formatter.match({
   "location": "ContactUsMultScenario.i_enter_first_name()"
 });
 formatter.result({
-  "duration": 4152253800,
+  "duration": 4142098500,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_last_name()"
 });
 formatter.result({
-  "duration": 61781600,
+  "duration": 56502800,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_an_email_address2()"
 });
 formatter.result({
-  "duration": 52788300,
+  "duration": 48767000,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_comment()"
 });
 formatter.result({
-  "duration": 88370200,
+  "duration": 89802800,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_click_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 462177700,
+  "duration": 531101600,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.confirmation2()"
 });
 formatter.result({
-  "duration": 170407500,
+  "duration": 47562500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 650600400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9231027500,
   "status": "passed"
 });
 formatter.background({
@@ -265,14 +285,14 @@ formatter.match({
   "location": "ContactUsMultScenario.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 10042994400,
+  "duration": 774229200,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_click_on_the_login_contact_button()"
 });
 formatter.result({
-  "duration": 3089289900,
+  "duration": 3106898700,
   "status": "passed"
 });
 formatter.scenario({
@@ -317,42 +337,46 @@ formatter.match({
   "location": "ContactUsMultScenario.i_enter_first_name()"
 });
 formatter.result({
-  "duration": 4159967500,
+  "duration": 4137726800,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_last_name()"
 });
 formatter.result({
-  "duration": 57139700,
+  "duration": 51047900,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_an_email_address()"
 });
 formatter.result({
-  "duration": 68194500,
+  "duration": 66827300,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_enter_comment()"
 });
 formatter.result({
-  "duration": 91248500,
+  "duration": 89903400,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.i_click_on_the_reset_button()"
 });
 formatter.result({
-  "duration": 59896600,
+  "duration": 42760200,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsMultScenario.empty_confirmartion()"
 });
 formatter.result({
-  "duration": 220775900,
+  "duration": 76956500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 644605000,
   "status": "passed"
 });
 formatter.uri("LoginBackground.feature");
@@ -362,6 +386,10 @@ formatter.feature({
   "description": "",
   "id": "login-to-account-at-webdriveruniversity.com-using-login-portal",
   "keyword": "Feature"
+});
+formatter.before({
+  "duration": 9226636900,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -389,21 +417,21 @@ formatter.match({
   "location": "LoginBackgroundStep.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 10008425500,
+  "duration": 765990600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBackgroundStep.i_click_on_the_login_portal_button()"
 });
 formatter.result({
-  "duration": 108322900,
+  "duration": 57119800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBackgroundStep.i_enter_username()"
 });
 formatter.result({
-  "duration": 4156939700,
+  "duration": 6170273900,
   "status": "passed"
 });
 formatter.scenario({
@@ -416,7 +444,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 9,
-  "name": "I enter a \"webdriver1234\" password",
+  "name": "I enter a \"webdriver123\" password",
   "keyword": "And "
 });
 formatter.step({
@@ -432,30 +460,37 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "webdriver1234",
+      "val": "webdriver123",
       "offset": 11
     }
   ],
   "location": "LoginBackgroundStep.i_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 77323600,
+  "duration": 81780300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBackgroundStep.i_click_on_the_login_button()"
 });
 formatter.result({
-  "duration": 53114200,
+  "duration": 61425300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBackgroundStep.i_should_be_presented_wit_a_successful_validation_alert()"
 });
 formatter.result({
-  "duration": 2866500,
-  "error_message": "org.junit.ComparisonFailure: expected:\u003cvalidation [fail]ed\u003e but was:\u003cvalidation [succeed]ed\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat CucumberFramework.Steps.LoginBackgroundStep.i_should_be_presented_wit_a_successful_validation_alert(LoginBackgroundStep.java:66)\r\n\tat ✽.Then I should be presented wit a successful validation alert(LoginBackground.feature:11)\r\n",
-  "status": "failed"
+  "duration": 48120200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 642928000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9217462300,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -483,21 +518,21 @@ formatter.match({
   "location": "LoginBackgroundStep.i_access_webdriveruniversity()"
 });
 formatter.result({
-  "duration": 10063972700,
+  "duration": 801301900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBackgroundStep.i_click_on_the_login_portal_button()"
 });
 formatter.result({
-  "duration": 129671600,
+  "duration": 48509800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBackgroundStep.i_enter_username()"
 });
 formatter.result({
-  "duration": 4180533700,
+  "duration": 6203009700,
   "status": "passed"
 });
 formatter.scenario({
@@ -533,21 +568,25 @@ formatter.match({
   "location": "LoginBackgroundStep.i_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 83999200,
+  "duration": 61175500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBackgroundStep.i_click_on_the_login_button()"
 });
 formatter.result({
-  "duration": 62248800,
+  "duration": 53531800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBackgroundStep.i_should_be_presented_wit_a_unsuccessful_validation_alert()"
 });
 formatter.result({
-  "duration": 166149100,
+  "duration": 49601100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 645728900,
   "status": "passed"
 });
 formatter.uri("LoginScenarioOutline.feature");
@@ -635,6 +674,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 9204035300,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 14,
   "name": "Longin to account with correct credentials",
@@ -695,14 +738,14 @@ formatter.match({
   "location": "LoginScenarioOutline.user_navigates_to(String)"
 });
 formatter.result({
-  "duration": 10051215700,
+  "duration": 817410100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginScenarioOutline.user_clicks_on_the_login_portal_button()"
 });
 formatter.result({
-  "duration": 111808100,
+  "duration": 44397800,
   "status": "passed"
 });
 formatter.match({
@@ -715,7 +758,7 @@ formatter.match({
   "location": "LoginScenarioOutline.user_enters_the_username(String)"
 });
 formatter.result({
-  "duration": 4156797700,
+  "duration": 6135790300,
   "status": "passed"
 });
 formatter.match({
@@ -728,14 +771,14 @@ formatter.match({
   "location": "LoginScenarioOutline.user_enter_the_password(String)"
 });
 formatter.result({
-  "duration": 66921300,
+  "duration": 60039500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginScenarioOutline.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 70564300,
+  "duration": 58468100,
   "status": "passed"
 });
 formatter.match({
@@ -748,7 +791,15 @@ formatter.match({
   "location": "LoginScenarioOutline.the_user_should_be_presented_with_the_following_prompt_alert(String)"
 });
 formatter.result({
-  "duration": 183609700,
+  "duration": 52213200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 632117300,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9184087300,
   "status": "passed"
 });
 formatter.scenario({
@@ -811,14 +862,14 @@ formatter.match({
   "location": "LoginScenarioOutline.user_navigates_to(String)"
 });
 formatter.result({
-  "duration": 10018326000,
+  "duration": 738308400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginScenarioOutline.user_clicks_on_the_login_portal_button()"
 });
 formatter.result({
-  "duration": 140297300,
+  "duration": 55747100,
   "status": "passed"
 });
 formatter.match({
@@ -831,7 +882,7 @@ formatter.match({
   "location": "LoginScenarioOutline.user_enters_the_username(String)"
 });
 formatter.result({
-  "duration": 4124761900,
+  "duration": 6169169100,
   "status": "passed"
 });
 formatter.match({
@@ -844,14 +895,14 @@ formatter.match({
   "location": "LoginScenarioOutline.user_enter_the_password(String)"
 });
 formatter.result({
-  "duration": 92745300,
+  "duration": 73035400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginScenarioOutline.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 65069600,
+  "duration": 61314800,
   "status": "passed"
 });
 formatter.match({
@@ -864,7 +915,11 @@ formatter.match({
   "location": "LoginScenarioOutline.the_user_should_be_presented_with_the_following_prompt_alert(String)"
 });
 formatter.result({
-  "duration": 155017200,
+  "duration": 49014700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 644379200,
   "status": "passed"
 });
 formatter.uri("Products.feature");
@@ -923,6 +978,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 9231483900,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 11,
   "name": "validate promo code alert is visible when clicking on the special offers link",
@@ -962,7 +1021,7 @@ formatter.match({
   "location": "ProductsSteps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 9770657500,
+  "duration": 463987800,
   "status": "passed"
 });
 formatter.match({
@@ -975,15 +1034,18 @@ formatter.match({
   "location": "ProductsSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 2034338400,
+  "duration": 2070789300,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductsSteps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "duration": 20988100,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn\\ btn\\-default\"}\n  (Session info: chrome\u003d81.0.4044.122)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.9.0\u0027, revision: \u0027698b3178f0\u0027, time: \u00272018-02-05T14:56:13.134Z\u0027\nSystem info: host: \u0027EPPLKATW0255\u0027, ip: \u0027192.168.1.12\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\LUIS_M~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 0ec6a2fa0d29f409c38549e90050f926\n*** Element info: {Using\u003dclass name, value\u003dbtn btn-default}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat CucumberFramework.Steps.ProductsSteps.user_should_be_presented_with_a_promo_alert(ProductsSteps.java:39)\r\n\tat ✽.Then user should be presented with a promo alert(Products.feature:7)\r\n",
-  "status": "failed"
+  "duration": 2081277300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 639996100,
+  "status": "passed"
 });
 });

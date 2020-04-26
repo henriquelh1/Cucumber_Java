@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;WebDriverUniversity&apos;&#x0D;&#x0A;- Original project: &apos;WebDriverUniversity&apos;&#x0D;&#x0A;- Original element: &apos;WebDriverUniversity/src/main/java/com.webdriveruniversity.WebDriverUniversity&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.webdriveruniversity.WebDriverUniversity" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.webdriveruniversity" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1587926298086" subPackages="false" version="1.0"/>
+</session>
