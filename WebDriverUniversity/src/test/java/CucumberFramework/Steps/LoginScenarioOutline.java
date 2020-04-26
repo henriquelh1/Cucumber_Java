@@ -20,6 +20,8 @@ public class LoginScenarioOutline {
 	WebDriver driver;
 	String parentWindowHandle;
 	
+	
+	
 	@Given("^user navigates to \"([^\"]*)\"$")
 	public void user_navigates_to(String url) throws Throwable {
 		System.setProperty("webdriver.chrome.driver", Paths.get(System.getProperty("user.dir")).toRealPath()+  "\\src\\test\\java\\CucumberFramework\\resources\\chromedriver.exe");

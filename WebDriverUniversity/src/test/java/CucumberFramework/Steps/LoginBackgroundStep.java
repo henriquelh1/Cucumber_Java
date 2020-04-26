@@ -34,13 +34,13 @@ public class LoginBackgroundStep {
 	}
 
 	@When("^I click on the login portal button$")
-	public void i_click_on_the_login_portal_button() throws Throwable {
+	public void i_click_on_the_login_portal_button()  {
 		
 		driver.findElement(By.id("login-portal")).click();
 	}
 
 	@When("^I enter username$")
-	public void i_enter_username() throws Throwable {
+	public void i_enter_username()  {
 		@SuppressWarnings("unused")
 		String winHandlerBefore = driver.getWindowHandle();
 
@@ -51,17 +51,17 @@ public class LoginBackgroundStep {
 	}
 
 	@When("^I enter a \"([^\"]*)\" password$")
-	public void i_enter_a_password(String password) throws Throwable {
+	public void i_enter_a_password(String password)  {
 	driver.findElement(By.id("password")).sendKeys(password); 
 	}
 
 	@When("^I click on the login button$")
-	public void i_click_on_the_login_button() throws Throwable {
+	public void i_click_on_the_login_button()  {
 	driver.findElement(By.id("login-button")).click();
 	}
 	
 	@Then("^I should be presented wit a successful validation alert$")
-	public void i_should_be_presented_wit_a_successful_validation_alert() throws Throwable {
+	public void i_should_be_presented_wit_a_successful_validation_alert()  {
 	Alert alert = driver.switchTo().alert();
 	Assert.assertEquals(alert.getText(), "validation succeeded");
 	driver.switchTo().alert().dismiss();
@@ -72,7 +72,7 @@ public class LoginBackgroundStep {
 	}
 
 	@Then("^I should be presented with a unsuccessful validation alert$")
-	public void i_should_be_presented_wit_a_unsuccessful_validation_alert() throws Throwable {
+	public void i_should_be_presented_wit_a_unsuccessful_validation_alert()  {
 	Alert alert = driver.switchTo().alert();
 	Assert.assertEquals(alert.getText(), "validation failed");
 	driver.switchTo().alert().dismiss();

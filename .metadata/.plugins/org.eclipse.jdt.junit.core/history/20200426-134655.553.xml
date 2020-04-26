@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner (1)" project="WebDriverUniversity" tests="48" started="48" failures="4" errors="0" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="104.425">
+    <testsuite name="Feature: Submit data to webdriveruniversity.com using contact us form" time="45.775">
+      <testsuite name="Scenario: Submit information using the contact us form" time="9.642">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit information using the contact us form" time="3.172"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit information using the contact us form" time="4.306"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit information using the contact us form" time="0.171"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit information using the contact us form" time="0.222"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Submit information using the contact us form" time="0.336"/>
+        <testcase name="And I enter comments using data table" classname="Scenario: Submit information using the contact us form" time="1.095"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit information using the contact us form" time="0.332"/>
+        <testcase name="Then confirmation" classname="Scenario: Submit information using the contact us form" time="0.008"/>
+      </testsuite>
+      <testsuite name="Scenario: Submit invalid information using the contact us form" time="8.031">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Submit invalid information using the contact us form" time="3.12"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Submit invalid information using the contact us form" time="4.173"/>
+        <testcase name="And I enter first name1" classname="Scenario: Submit invalid information using the contact us form" time="0.053"/>
+        <testcase name="And I enter last name1" classname="Scenario: Submit invalid information using the contact us form" time="0.05"/>
+        <testcase name="And I enter an email address2" classname="Scenario: Submit invalid information using the contact us form" time="0.082"/>
+        <testcase name="And I enter comments1" classname="Scenario: Submit invalid information using the contact us form" time="0.409"/>
+        <testcase name="And I click on the submit button1" classname="Scenario: Submit invalid information using the contact us form" time="0.141"/>
+        <testcase name="Then invalid confirmation" classname="Scenario: Submit invalid information using the contact us form" time="0.003"/>
+      </testsuite>
+      <testsuite name="Scenario: Reset information using Reset button on the contact us form" time="7.797">
+        <testcase name="Given I access webdriveruniversity1" classname="Scenario: Reset information using Reset button on the contact us form" time="3.159"/>
+        <testcase name="When I click on the contact1" classname="Scenario: Reset information using Reset button on the contact us form" time="4.139"/>
+        <testcase name="And I enter first name1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.069"/>
+        <testcase name="And I enter last name1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.078"/>
+        <testcase name="And I enter an email address1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.082"/>
+        <testcase name="And I enter comments1" classname="Scenario: Reset information using Reset button on the contact us form" time="0.064"/>
+        <testcase name="And I click on the reset button" classname="Scenario: Reset information using Reset button on the contact us form" time="0.205"/>
+        <testcase name="Then empty confirmation" classname="Scenario: Reset information using Reset button on the contact us form" time="0.001"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login to account at webdriveruniversity.com using login portal" time="19.19">
+      <testsuite name="Scenario: Login to account correct password" time="4.423" incomplete="true">
+        <failure>
+          <expected>validation failed</expected>
+          <actual>validation succeeded</actual>
+          org.junit.ComparisonFailure: expected:&lt;validation [fail]ed&gt; but was:&lt;validation [succeed]ed&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at CucumberFramework.Steps.LoginBackgroundStep.i_should_be_presented_wit_a_successful_validation_alert(LoginBackgroundStep.java:66)&#13;
+	at ✽.Then I should be presented wit a successful validation alert(LoginBackground.feature:11)&#13;
+&#13;
+
+        </failure>
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account correct password" time="0.142"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account correct password" time="4.138"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account correct password" time="0.078"/>
+        <testcase name="And I enter a &quot;webdriver1234&quot; password" classname="Scenario: Login to account correct password" time="0.05"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account correct password" time="0.004"/>
+        <testcase name="Then I should be presented wit a successful validation alert" classname="Scenario: Login to account correct password" time="0.011">
+          <failure>
+            <expected>validation failed</expected>
+            <actual>validation succeeded</actual>
+            org.junit.ComparisonFailure: expected:&lt;validation [fail]ed&gt; but was:&lt;validation [succeed]ed&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at CucumberFramework.Steps.LoginBackgroundStep.i_should_be_presented_wit_a_successful_validation_alert(LoginBackgroundStep.java:66)&#13;
+	at ✽.Then I should be presented wit a successful validation alert(LoginBackground.feature:11)&#13;
+&#13;
+
+          </failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Scenario: Login to account with a invalid password" time="4.697">
+        <testcase name="Given I access webdriveruniversity" classname="Scenario: Login to account with a invalid password" time="0.216"/>
+        <testcase name="When I click on the login portal button" classname="Scenario: Login to account with a invalid password" time="4.175"/>
+        <testcase name="And I enter username" classname="Scenario: Login to account with a invalid password" time="0.082"/>
+        <testcase name="And I enter a &quot;invalid&quot; password" classname="Scenario: Login to account with a invalid password" time="0.069"/>
+        <testcase name="When I click on the login button" classname="Scenario: Login to account with a invalid password" time="0.149"/>
+        <testcase name="Then I should be presented with a unsuccessful validation alert" classname="Scenario: Login to account with a invalid password" time="0.006"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Login to Account" time="19.455">
+      <testsuite name="Scenario Outline: Longin to account with correct credentials" time="19.455">
+        <testsuite name="Examples:" time="19.455">
+          <testsuite name="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="4.799">
+            <testcase name="Given user navigates to &quot;http://www.webdriveruniversity.com&quot;" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.187"/>
+            <testcase name="When user clicks on the login portal button" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="4.178"/>
+            <testcase name="And user enters the &quot;user1&quot; username" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.094"/>
+            <testcase name="And user enters the &quot;pass1&quot; password" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.07"/>
+            <testcase name="When user clicks on the login button" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.266"/>
+            <testcase name="Then the user should be presented with the following prompt alert &quot;validation failed&quot;" classname="| http://www.webdriveruniversity.com | user1 | pass1 | validation failed |" time="0.004"/>
+          </testsuite>
+          <testsuite name="| http://www.webdriveruniversity.com | webdriver | webdriver1234 | validation succeeded |" time="4.515" incomplete="true">
+            <failure>
+              <expected>validationfailed</expected>
+              <actual>validationsucceeded</actual>
+              org.junit.ComparisonFailure: expected:&lt;validation[fail]ed&gt; but was:&lt;validation[succeed]ed&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at CucumberFramework.Steps.LoginScenarioOutline.the_user_should_be_presented_with_the_following_prompt_alert(LoginScenarioOutline.java:63)&#13;
+	at ✽.Then the user should be presented with the following prompt alert "validation succeeded"(LoginScenarioOutline.feature:10)&#13;
+&#13;
+
+            </failure>
+            <testcase name="Given user navigates to &quot;http://www.webdriveruniversity.com&quot;" classname="| http://www.webdriveruniversity.com | webdriver | webdriver1234 | validation succeeded |" time="0.132"/>
+            <testcase name="When user clicks on the login portal button" classname="| http://www.webdriveruniversity.com | webdriver | webdriver1234 | validation succeeded |" time="4.196"/>
+            <testcase name="And user enters the &quot;webdriver&quot; username" classname="| http://www.webdriveruniversity.com | webdriver | webdriver1234 | validation succeeded |" time="0.112"/>
+            <testcase name="And user enters the &quot;webdriver1234&quot; password" classname="| http://www.webdriveruniversity.com | webdriver | webdriver1234 | validation succeeded |" time="0.072"/>
+            <testcase name="When user clicks on the login button" classname="| http://www.webdriveruniversity.com | webdriver | webdriver1234 | validation succeeded |" time="0.003"/>
+            <testcase name="Then the user should be presented with the following prompt alert &quot;validation succeeded&quot;" classname="| http://www.webdriveruniversity.com | webdriver | webdriver1234 | validation succeeded |" time="0.0">
+              <failure>
+                <expected>validationfailed</expected>
+                <actual>validationsucceeded</actual>
+                org.junit.ComparisonFailure: expected:&lt;validation[fail]ed&gt; but was:&lt;validation[succeed]ed&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at CucumberFramework.Steps.LoginScenarioOutline.the_user_should_be_presented_with_the_following_prompt_alert(LoginScenarioOutline.java:63)&#13;
+	at ✽.Then the user should be presented with the following prompt alert "validation succeeded"(LoginScenarioOutline.feature:10)&#13;
+&#13;
+
+              </failure>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
