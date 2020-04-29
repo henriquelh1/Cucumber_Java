@@ -1,5 +1,7 @@
 package utils;
 
+import java.io.FileInputStream;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -8,14 +10,18 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+
+
 public class DriverFactory {
 	public static WebDriver driver;
+	
 
 	public WebDriver getDriver() {
 		try {// Read Config
-			
-			ReadConfigFile file = new ReadConfigFile();
-			String browserName = file.getBrowser();
+			Properties p = new Properties();
+			FileInputStream file = new FileInputStream(System.getProperty("user.dir")+ "\\src\\main\\java\\properties\\config.properties");
+			p.load(file);
+			String browserName = p.getProperty("browser");
 			
 			switch (browserName) {
 
@@ -46,6 +52,8 @@ public class DriverFactory {
 
 		} finally {
 			driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		
+			
 		}
 		return driver;
 	}

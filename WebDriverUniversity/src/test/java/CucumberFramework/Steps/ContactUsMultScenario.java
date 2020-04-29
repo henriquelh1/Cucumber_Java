@@ -37,7 +37,7 @@ public class ContactUsMultScenario extends DriverFactory {
 	@When("^I click on the contact1$")
 	public void i_click_on_the_login_contact_button() throws Throwable {
 	driver.findElement(By.xpath("//*[@id=\"contact-us\"]/div/div[1]/h1")).click();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
 
 	@And("^I enter first name1$")

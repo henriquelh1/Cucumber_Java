@@ -1,0 +1,16 @@
+package pageObject;
+
+import java.io.IOException;
+
+import org.openqa.selenium.support.FindBy;
+
+public class ContactUs_Page extends BasePage{
+
+	public @FindBy() webElement textfield_FirstName
+	
+	public ContactUs_Page() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

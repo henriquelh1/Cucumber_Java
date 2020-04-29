@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-28T00:21:58Z" name="Cucumber Framework" finished-at="2020-04-28T00:23:42Z" duration-ms="103300">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberFramework.runner.MainRunner@3bbc39f8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-04-28T00:21:58Z" name="Cucumber Tests" finished-at="2020-04-28T00:23:42Z" duration-ms="103300">
+      <class name="CucumberFramework.runner.MainRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:CucumberFramework.runner.MainRunner@3bbc39f8]" started-at="2020-04-28T02:21:58Z" name="setUpClass" finished-at="2020-04-28T02:21:59Z" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberFramework.runner.MainRunner@3bbc39f8]" started-at="2020-04-28T02:21:59Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-28T02:22:38Z" duration-ms="38865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Submit data to webdriveruniversity.com using contact us form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberFramework.runner.MainRunner@3bbc39f8]" started-at="2020-04-28T02:22:38Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-28T02:23:03Z" duration-ms="24788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to account at webdriveruniversity.com using login portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberFramework.runner.MainRunner@3bbc39f8]" started-at="2020-04-28T02:23:03Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-28T02:23:27Z" duration-ms="24147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberFramework.runner.MainRunner@3bbc39f8]" started-at="2020-04-28T02:23:27Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-28T02:23:41Z" duration-ms="13986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberFramework.runner.MainRunner@3bbc39f8]" started-at="2020-04-28T02:23:41Z" name="tearDownClass" finished-at="2020-04-28T02:23:42Z" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberFramework.runner.MainRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- Cucumber Framework -->
+</testng-results>

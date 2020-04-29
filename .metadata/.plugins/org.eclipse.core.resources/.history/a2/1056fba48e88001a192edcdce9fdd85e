@@ -1,0 +1,12 @@
+package pageObject;
+
+import java.io.IOException;
+
+public class ContatcUs_Page extends BasePage{
+
+	public ContatcUs_Page() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}
